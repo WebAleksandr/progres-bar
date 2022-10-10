@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #181F2A;
+    --color: #fff;
+    --first-color: #FE0000;
+    --second-color: #7CFF01;
+    --third-color: #01FFF4;
+    --fouth-color: #FF1178;
+    --sixth-color: #FFF205;
+    --seventh-color: #1640D6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'Mochiy Pop One', sans-serif;
+    overflow: hidden;
+}
+
+.decor {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    font-size: 7rem;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: 13rem;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.skills {
+    position: relative;
+}
+
+.pos-js {
+    position: absolute;
+    transform: rotate(-90deg);
+    left: 0;
+    top: 25rem;
+}
+
+.pos-sass {
+    position: absolute;
+    left: 19rem;
+    bottom: 16rem;
+}
+
+.pos-css {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 12rem;
+}
+
+.pos-markdown {
+    position: absolute;
+    right: 19rem;
+    bottom: 7rem;
+}
+
+.pos-html {
+    position: absolute;
+    right: 19rem;
+    transform: rotate(-90deg);
+    bottom: 50%;
+}
+
+.pos-react {
+    position: absolute;
+    right: 23rem;
+    top: 3rem;
+}
+
+.skills-title {
+    font-size: 4rem;
+    color: var(--color);
+    letter-spacing: 2px;
+    margin-bottom: 3.5rem;
+
+}
+
+
+.skills-subtitle {
+    letter-spacing: 1px;
+    color: var(--color);
+    font-size: 2rem;
+    opacity: 0;
+}
+
+.progress-bar {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    width: 82rem;
+    height: 1rem;
+    border-radius: 5px;
+}
+
+.progress-bar div {
+    height: 1rem;
+    border-radius: 5px;
+    width: 0%;
+}
+
+.progress-bar div span {
+    height: 4.5rem;
+    width: 4.5rem;
+    color: var(--color);
+    font-size: 1.4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    float: right;
+    margin-top: -19px;
+    margin-right: -20px;
+}
+
+/* ================================================= */
+.sub-html {
+    animation: sub-html 1s linear forwards 0.2s;
+}
+
+@keyframes sub-html {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* ================================================= */
+.sub-markdown {
+
+    animation: sub-markdown 1s linear forwards 0.4s;
+}
+
+@keyframes sub-markdown {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* ================================================= */
+.sub-css {
+    animation: sub-css 1s linear forwards 0.4s;
+}
+
+@keyframes sub-css {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* ================================================= */
+.sub-sass {
+    animation: sub-sass 1s linear forwards 0.8s;
+}
+
+@keyframes sub-sass {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* ================================================= */
+.sub-javascript {
+    animation: sub-javascript 1s linear forwards 1s;
+}
+
+@keyframes sub-javascript {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* ================================================= */
+.sub-react {
+    animation: sub-react 1s linear forwards 1.2s;
+}
+
+@keyframes sub-react {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+.html {
+    background-color: var(--first-color);
+    animation: html 1s linear forwards 0.2s;
+    opacity: 0;
+}
+
+.html span {
+    border: 3px solid var(--first-color);
+}
+
+@keyframes html {
+    100% {
+        width: 89%;
+        opacity: 1;
+    }
+}
+
+/* ==================================================== */
+.markdown {
+    background-color: var(--second-color);
+    animation: markdown 1s linear forwards 0.4s;
+    opacity: 0;
+}
+
+.markdown span {
+    border: 3px solid var(--second-color);
+}
+
+@keyframes markdown {
+    100% {
+        width: 65%;
+        opacity: 1;
+    }
+}
+
+/* ==================================================== */
+
+.css {
+    background-color: var(--third-color);
+    animation: css 1s linear forwards 0.6s;
+    opacity: 0;
+}
+
+.css span {
+    border: 3px solid var(--third-color);
+}
+
+@keyframes css {
+    100% {
+        width: 87%;
+        opacity: 1;
+    }
+}
+
+/* ==================================================== */
+.sass {
+    background-color: var(--fouth-color);
+    animation: sass 1s linear forwards 0.8s;
+    opacity: 0;
+}
+
+.sass span {
+    border: 3px solid var(--fouth-color);
+}
+
+@keyframes sass {
+    100% {
+        width: 80%;
+        opacity: 1;
+    }
+}
+
+/* ==================================================== */
+
+.javascript {
+    background-color: var(--sixth-color);
+    animation: javascript 1s linear forwards 1s;
+    opacity: 0;
+}
+
+.javascript span {
+    border: 3px solid var(--sixth-color);
+}
+
+@keyframes javascript {
+    100% {
+        width: 70%;
+        opacity: 1;
+    }
+}
+
+/* ==================================================== */
+
+.react {
+    background-color: var(--seventh-color);
+    animation: react 1s linear forwards 0.2s;
+    opacity: 0;
+}
+
+.react span {
+    border: 3px solid var(--seventh-color);
+}
+
+@keyframes react {
+    100% {
+        width: 35%;
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1614px) {
+    .decor {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 1199px) {
+    .pos-js {
+        left: -10rem;
+    }
+
+    .pos-sass {
+        left: 1rem;
+    }
+
+    .pos-css {
+        left: 50%;
+        bottom: 12rem;
+    }
+
+    .pos-markdown {
+        right: 1rem;
+        bottom: 7rem;
+    }
+
+    .pos-html {
+        right: -2rem;
+        bottom: 50%;
+    }
+
+    .pos-react {
+        right: 1rem;
+        top: 3rem;
+    }
+}
+
+@media (max-width: 981px) {
+    .progress-bar {
+        width: 50rem;
+    }
+}
+
+@media (max-width: 649px) {
+    .skills-title {
+        font-size: 3rem;
+    }
+
+    .progress-bar {
+        width: 40rem;
+    }
+
+    .decor {
+        font-size: 3rem;
+    }
+
+    .pos-js {
+        left: -7.5rem;
+    }
+}
+
+@media (max-width: 505px) {
+    .skills-title {
+        font-size: 3rem;
+    }
+
+    .progress-bar {
+        width: 30rem;
+    }
+
+    .decor {
+        font-size: 2rem;
+    }
+
+    .pos-js {
+        left: -4.5rem;
+    }
+
+    .pos-html {
+        right: -1rem;
+        bottom: 50%;
+    }
+}
+
+@media (max-width: 379px) {
+    .skills-title {
+        font-size: 3rem;
+    }
+
+    .progress-bar {
+        width: 24rem;
+    }
+
+    .decor {
+        font-size: 2rem;
+    }
+
+    .pos-js {
+        left: -4.5rem;
+    }
+
+    .pos-html {
+        right: -1rem;
+        bottom: 50%;
+    }
+}
